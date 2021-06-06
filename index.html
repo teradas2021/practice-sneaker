@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="headerbar">
+            <a href="#"><img src="logo.svg" alt="" class="sneakers"></a>
+            
+        </div>
+        <div class="headervideo">
+            <video src="video.mp4" loop autoplay muted class="video"></video>
+        </div>
+        
+    </header>
+    <main>
+        <div class="pickup">
+            <div class="maintitle">PICK UP</div>
+            <div class="puphotos">
+                <img src="pickup1.jpg" alt="" class="puphoto">
+                <img src="pickup2.jpg" alt="" class="puphoto">
+                <img src="pickup3.jpg" alt="" class="puphoto">
+                <img src="pickup4.jpg" alt="" class="puphoto">
+                <img src="pickup5.jpg" alt="" class="puphoto">
+            </div>
+        </div>
+        <div class="feature">
+            <div class="maintitle">FEATURE</div>
+            <div class="itemcontainer slide-bottom show">
+                <img src="feature1.jpg" alt="" class="itemphoto slide-bottom show">
+                <div class="category">category</div>
+                <div class="itemtext">
+                        テキストテキストテキストテキストテキストテキストテキストテキスト
+                </div>
+                <div class="date">XXXX.XX.XX</div>
+            </div>    
+            <div class="itemcontainer">
+                <img src="feature2.jpg" alt="" class="itemphoto  slide-bottom show">
+                <div class="category">category</div>
+                <div class="itemtext">
+                        テキストテキストテキストテキストテキストテキストテキストテキスト
+                </div>
+                <div class="date">XXXX.XX.XX</div>
+            </div>   
+            <div class="itemcontainer">
+                <img src="feature3.jpg" alt="" class="itemphoto  slide-bottom show">
+                <div class="category">category</div>
+                <div class="itemtext">
+                        テキストテキストテキストテキストテキストテキストテキストテキスト
+                </div>
+                <div class="date">XXXX.XX.XX</div>
+            </div>   
+            <div class="itemcontainer">
+                <img src="feature4.jpg" alt="" class="itemphoto  slide-bottom show">
+                <div class="category">category</div>
+                <div class="itemtext">
+                        テキストテキストテキストテキストテキストテキストテキストテキスト
+                </div>
+                <div class="date">XXXX.XX.XX</div>
+            </div>   
+            <div class="itemcontainer">
+                <img src="feature5.jpg" alt="" class="itemphoto  slide-bottom show">
+                <div class="category">category</div>
+                <div class="itemtext">
+                        テキストテキストテキストテキストテキストテキストテキストテキスト
+                </div>
+                <div class="date">XXXX.XX.XX</div>
+            </div>   
+            <div class="itemcontainer">
+                <img src="feature6.jpg" alt="" class="itemphoto  slide-bottom show">
+                <div class="category">category</div>
+                <div class="itemtext">
+                        テキストテキストテキストテキストテキストテキストテキストテキスト
+                </div>
+                <div class="date">XXXX.XX.XX</div>
+            </div>   
+            <div class="itemcontainer">
+                <img src="feature7.jpg" alt="" class="itemphoto  slide-bottom show">
+                <div class="category">category</div>
+                <div class="itemtext">
+                        テキストテキストテキストテキストテキストテキストテキストテキスト
+                </div>
+                <div class="date">XXXX.XX.XX</div>
+            </div>   
+            <div class="itemcontainer">
+                <img src="feature8.jpg" alt="" class="itemphoto  slide-bottom show">
+                <div class="category">category</div>
+                <div class="itemtext">
+                        テキストテキストテキストテキストテキストテキストテキストテキスト
+                </div>
+                <div class="date">XXXX.XX.XX</div>
+            </div>   
+            <div class="itemcontainer">
+                <img src="feature9.jpg" alt="" class="itemphoto slide-bottom show">
+                <div class="category">category</div>
+                <div class="itemtext">
+                        テキストテキストテキストテキストテキストテキストテキストテキスト
+                </div>
+                <div class="date">XXXX.XX.XX</div>
+            </div>   
+        </div>
+
+    </main>
+    <footer>
+        <div class="footertitle">CONTACT</div>
+        <div class="footerleft">
+            <div class="fltext">テキストテキストテキスト</div>
+            <div class="fltext">
+                テキストテキストテキストテキストテキストテキストテキストテキストテキスト 
+                テキストテキストテキストテキストテキストテキストテキストテキストテキスト 
+                テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            </div>
+            <div class="fltext">
+                テキストテキストテキストテキストテキストテキストテキストテキストテキスト 
+                テキストテキストテキストテキストテキストテキストテキストテキストテキスト 
+                テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            </div>
+        </div>
+        <div class="footerright">
+            <div class="boxtag">Name:</div>
+            <input type="text" class="namebox">
+            <div class="boxtag">Mail:</div>
+            <input type="text" class="mailbox">
+            <div class="boxtag">Message:</div>
+            <input type="text" class="messagebox">
+            <button class="button">SEND</button>
+        </div>
+        <div class="footerlogo">© Sneakers</div>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script>
+        $(function(){
+        $(window).on('load scroll', function() {
+        var winScroll = $(window).scrollTop();
+        var winHeight = $(window).height();
+        var scrollPos = winScroll + (winHeight * 0.8);
+
+        $(".show").each(function() {
+          if($(this).offset().top < scrollPos) {
+               $(this).css({opacity: 1, transform: 'translate(0, 0)'});
+             }
+             });
+            });
+        });
+    </script>
+</body>
+</html>
